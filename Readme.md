@@ -15,6 +15,7 @@ The main goals were to:
 ## Architecture Overview
 
 The refactored architecture takes the original Profile stack and maps each self managed component to an AWS managed service.
+
 <img width="3716" height="2189" alt="image" src="https://github.com/user-attachments/assets/0cdb0e44-6146-4cad-aab5-82c9ce3278ea" />
 
 ### Core AWS Managed Services
