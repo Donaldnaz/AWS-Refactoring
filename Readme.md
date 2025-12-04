@@ -44,13 +44,6 @@ The refactored architecture takes the original Profile stack and maps each self 
 - **Amazon CloudWatch**  
   Central monitoring for logs, metrics, dashboards, and alarms. Also ties into auto scaling policies.
 
-You can add a diagram under `docs/architecture.png` and reference it here:
-
-> High level architecture diagram  
-> `docs/architecture.png`
-
----
-
 ## Service Modernization Mapping
 
 | Traditional Service     | AWS Managed Service  | Key Benefit                                   |
@@ -63,7 +56,6 @@ You can add a diagram under `docs/architecture.png` and reference it here:
 | Self managed DNS        | Amazon Route 53      | Highly available DNS with routing policies    |
 | Custom CDN or none      | Amazon CloudFront    | Global caching, edge locations, TLS offload   |
 
----
 
 ## Request Flow
 
@@ -77,7 +69,6 @@ You can add a diagram under `docs/architecture.png` and reference it here:
    - **Amazon ElastiCache** for caching
    - **Amazon MQ** for messaging and asynchronous workflows
 7. **Amazon CloudWatch** collects metrics and logs and drives alarms and auto scaling actions.
-
 
 ## Cost and Sizing Snapshot
 
@@ -94,7 +85,6 @@ The aim of the project is not to find the absolute cheapest setup but to show ho
 - Stronger security
 - Lower operational overhead
 
----
 
 ## Implementation Steps
 
@@ -166,7 +156,6 @@ This refactor delivers both technical and business outcomes.
 
 - **Higher agility for feature work**  
   With AWS taking care of most of the undifferentiated heavy lifting, engineers can focus more on features instead of infrastructure.
-
 
 
 ## Tech Stack
