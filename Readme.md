@@ -4,8 +4,6 @@ This project shows how I refactored the **Profile multi tier application** from 
 
 - **AWS Refactor Project** → [`awsrefactor`](https://anasiezeikenna.notion.site/Refactoring-Apps-with-AWS-Managed-Services-26105c74585e80f8a5f8f3a4488b4b3b)  
 
-<img width="3716" height="2189" alt="image" src="https://github.com/user-attachments/assets/0cdb0e44-6146-4cad-aab5-82c9ce3278ea" />
-
 The main goals were to:
 
 - Remove the operational burden of managing servers
@@ -17,6 +15,7 @@ The main goals were to:
 ## Architecture Overview
 
 The refactored architecture takes the original Profile stack and maps each self managed component to an AWS managed service.
+<img width="3716" height="2189" alt="image" src="https://github.com/user-attachments/assets/0cdb0e44-6146-4cad-aab5-82c9ce3278ea" />
 
 ### Core AWS Managed Services
 
