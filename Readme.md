@@ -48,12 +48,12 @@ The refactored architecture takes the original Profile stack and maps each self 
 | Traditional Service     | AWS Managed Service  | Key Benefit                                   |
 | ----------------------- | -------------------- | --------------------------------------------- |
 | Tomcat on EC2           | Elastic Beanstalk    | Automated deployment, scaling, and patching   |
-| MySQL on VM or EC2      | Amazon RDS           | Backups, failover, and read replicas          |
+| MySQL on EC2            | Amazon RDS           | Backups, failover, and read replicas          |
 | Memcache on EC2         | Amazon ElastiCache   | Managed caching cluster                       |
-| RabbitMQ on VM or EC2   | Amazon MQ            | Fully managed message broker                  |
-| NFS                     | Amazon EFS or S3     | Elastic, durable shared storage               |
+| RabbitMQ on       EC2   | Amazon MQ            | Fully managed message broker                  |
+| NFS                     | Amazon S3            | Elastic, durable shared storage               |
 | Self managed DNS        | Amazon Route 53      | Highly available DNS with routing policies    |
-| Custom CDN or none      | Amazon CloudFront    | Global caching, edge locations, TLS offload   |
+| Custom CDN              | Amazon CloudFront    | Global caching, edge locations, TLS offload   |
 
 
 ## Request Flow
