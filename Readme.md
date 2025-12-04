@@ -44,7 +44,7 @@ The refactored architecture takes the original Profile stack and maps each self 
 - **Amazon CloudWatch**  
   Central monitoring for logs, metrics, dashboards, and alarms. Also ties into auto scaling policies.
 
-## Service Modernization Mapping
+## Service Modernization
 
 | Traditional Service     | AWS Managed Service  | Key Benefit                                   |
 | ----------------------- | -------------------- | --------------------------------------------- |
