@@ -2,7 +2,7 @@
 
 This project shows how I refactored the **Profile multi tier application** from a basic lift and shift deployment into a **cloud native architecture** using AWS managed services.
 
-- **AWS Refactor Project** → [`awsrefactor`](https://anasiezeikenna.notion.site/Refactoring-Apps-with-AWS-Managed-Services-26105c74585e80f8a5f8f3a4488b4b3b)  
+- **AWS Refactor Full Project** → [`awsrefactor`](https://anasiezeikenna.notion.site/Refactoring-Apps-with-AWS-Managed-Services-26105c74585e80f8a5f8f3a4488b4b3b)  
 
 The main goals were to:
 
