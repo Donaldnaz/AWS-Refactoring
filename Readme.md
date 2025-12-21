@@ -28,6 +28,6 @@ This project shows how I refactored a **Profile multi tier application** from a 
 
 This project demonstrates my ability to not just migrate workloads to AWS (Lift & Shift), but to refactor them into managed, cloud-native services — unlocking agility, scalability, and operational efficiency.
 
-# Author
-# Anasieze Ikenna - Cloud Engineer
+### Author
+### Anasieze Ikenna - Cloud Engineer
 
