@@ -1,4 +1,4 @@
-# AWS Refactoring Project
+# Refactoring Apps with AWS Managed Services
 
 This project shows how I refactored a **Profile multi tier application** from a basic lift and shift deployment into a **cloud native architecture** using AWS managed services.
 
