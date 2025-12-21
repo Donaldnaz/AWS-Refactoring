@@ -16,11 +16,11 @@ This project shows how I refactored a **Profile multi tier application** from a 
 ## Project Structure
 
 ````
-/src                                      # Application Source Code
-├── Architecture.png                      # Infrastructure Diagram 
-├── Guide.pdf                             # Setup to Deploy Stack
+/src                                      # Project Source Directory
+├── Architecture.png                      # Cloud Architecture Diagram
+├── Guide.pdf                             # Step by Step Deployment Guide
 ├── Prerequisites.md                      # Prerequisites to Deploy Stack
-├── README.md                             # This File
+├── README.md                             # Project Overview 
 
 ````
 
