@@ -2,17 +2,6 @@
 
 This project shows how I refactored a **Profile multi tier application** from a basic lift and shift deployment into a **cloud native architecture** using AWS managed services.
 
-## Project Structure
-
-````
-/src                                      # Application Source Code
-├── Architecture.png                      # Infrastructure Diagram 
-├── Guide.pdf                             # Setup to Deploy Stack
-├── Prerequisites.md                      # Prerequisites to Deploy Stack
-├── README.md                             # This File
-
-````
-
 ## Tech Stack
 
 - **Elastic Beanstalk** → Replaces Tomcat on EC2, handling app deployment, load balancing, and auto scaling.
@@ -24,16 +13,20 @@ This project shows how I refactored a **Profile multi tier application** from a 
 - **Amazon S3** → Artifact storage and static content delivery.
 - **Amazon CloudWatch** → Monitoring and scaling automation.
 
+## Project Structure
+
+````
+/src                                      # Application Source Code
+├── Architecture.png                      # Infrastructure Diagram 
+├── Guide.pdf                             # Setup to Deploy Stack
+├── Prerequisites.md                      # Prerequisites to Deploy Stack
+├── README.md                             # This File
+
+````
 
 ### **Project Highlights**
 
-  Demonstrates my ability to:
-  
-- Migrate real-world workloads to AWS  
-- Design scalable, secure cloud architectures  
-- Automate provisioning and deployment pipelines  
-- Balance performance, cost, and maintainability in production-ready environments
-
+This project demonstrates my ability to not just migrate workloads to AWS (Lift & Shift), but to refactor them into managed, cloud-native services — unlocking agility, scalability, and operational efficiency.
 
 # Author
 # Anasieze Ikenna - Cloud Engineer
