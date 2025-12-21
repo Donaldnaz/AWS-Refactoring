@@ -14,32 +14,15 @@ This project shows how I refactored a **Profile multi tier application** from a 
 ````
 
 ## Tech Stack
-**Cloud and platform**
 
-- **Elastic Beanstalk**  
-  Replaces Tomcat on EC2 for the main application. Handles deployment, load balancing, auto scaling, and health checks.
-  
-- **Amazon RDS**  
-  Replaces MySQL on VM or EC2. Provides managed relational database, backups, snapshots, failover, and scaling.
-
-- **Amazon ElastiCache**  
-  Replaces Memcache on EC2. Delivers a managed caching layer for faster reads and reduced database load.
-
-- **Amazon MQ**  
-  Replaces RabbitMQ on EC2. Fully managed message broker for decoupled communication.
-
-- **Amazon Route 53**  
-  Used for DNS management and routing traffic to the application endpoints.
-
-- **Amazon CloudFront**  
-  Content delivery network in front of the application for global reach and lower latency with HTTPS.
-
-- **Amazon S3**  
-  Used for artifact storage and static content.
-
-- **Amazon CloudWatch**  
-  Central monitoring for logs, metrics, dashboards, and alarms. Also ties into auto scaling policies.
-
+- **Elastic Beanstalk** → Replaces Tomcat on EC2, handling app deployment, load balancing, and auto scaling.
+- **Amazon RDS** → Replaces MySQL on VM/EC2, providing managed relational database service with backups and scaling.
+- **Amazon ElastiCache** → Replaces Memcache on EC2 for caching.
+- **Amazon MQ** → Replaces RabbitMQ on EC2 for messaging.
+- **Amazon Route 53** → DNS management for application endpoints.
+- **Amazon CloudFront** → CDN for global content delivery with HTTPS.
+- **Amazon S3** → Artifact storage and static content delivery.
+- **Amazon CloudWatch** → Monitoring and scaling automation.
 
 
 ### **Project Highlights**
